@@ -35,6 +35,25 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Show_layer_0 {
+            bindings = <&kp LA(RA(N0))>;
+            key-positions = <39 51>;
+        };
+
+        Show_layer_1 {
+            bindings = <&kp RA(LA(N1))>;
+            key-positions = <51 39>;
+        };
+
+        Show_layer_2 {
+            bindings = <&kp RA(LA(N2))>;
+            key-positions = <39 51>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
