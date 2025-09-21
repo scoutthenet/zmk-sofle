@@ -198,7 +198,10 @@ layers:
 combos:
 - p: [39, 51]
   k: Alt+AltGr+0
+  l: [default]
 - p: [51, 39]
   k: AltGr+Alt+1
-- p: [39, 51]
+  l: [upper]
+- p: [51, 39]
   k: AltGr+Alt+2
+  l: [lower]
