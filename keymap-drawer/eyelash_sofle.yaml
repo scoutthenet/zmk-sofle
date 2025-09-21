@@ -195,3 +195,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '0', s: )}
   - {t: ., s: '>'}
+combos:
+- p: [39, 51]
+  k: Alt+AltGr+0
+- p: [51, 39]
+  k: AltGr+Alt+1
+- p: [39, 51]
+  k: AltGr+Alt+2
