@@ -41,16 +41,25 @@
         Show_layer_0 {
             bindings = <&kp LA(RA(N0))>;
             key-positions = <39 51>;
+            slow-release;
+            timeout-ms = <100>;
+            layers = <0>;
         };
 
         Show_layer_1 {
             bindings = <&kp RA(LA(N1))>;
             key-positions = <51 39>;
+            slow-release;
+            timeout-ms = <100>;
+            layers = <1>;
         };
 
         Show_layer_2 {
             bindings = <&kp RA(LA(N2))>;
-            key-positions = <39 51>;
+            key-positions = <51 39>;
+            slow-release;
+            timeout-ms = <100>;
+            layers = <2>;
         };
     };
 
