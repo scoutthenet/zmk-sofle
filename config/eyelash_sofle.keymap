@@ -51,7 +51,7 @@
             key-positions = <51 39>;
             slow-release;
             timeout-ms = <100>;
-            layers = <2>;
+            layers = <1>;
         };
 
         Show_layer_2 {
@@ -59,14 +59,14 @@
             key-positions = <51 39>;
             slow-release;
             timeout-ms = <100>;
-            layers = <1>;
+            layers = <2>;
         };
     };
 
     keymap {
         compatible = "zmk,keymap";
 
-        default {
+        DEFAULT {
             bindings = <
 &kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7  &kp N8         &kp N9         &kp N0             &kp BACKSPACE
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U   &kp I          &kp O          &kp P              &kp MINUS
@@ -76,10 +76,10 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "default";
+            display-name = "DEFAULT";
         };
 
-        UPPER {
+        LOWER {
             bindings = <
 &kp F1      &kp F2  &kp F3    &kp F4    &kp F5     &kp F6    &mmv MOVE_UP     &kp F7  &kp F8     &kp F9             &kp F10  &kp F11  &kp F12
 &none       &none   &none     &kp UP    &none      &none     &mmv MOVE_DOWN   &none   &none      &none              &none    &none    &none
@@ -91,7 +91,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        LOWER {
+        UPPER {
             bindings = <
 &none       &none  &none                 &none                  &none          &none     &mmv MOVE_UP     &none          &kp KP_NUMLOCK  &kp KP_SLASH  &kp KP_MULTIPLY  &kp KP_SUBTRACT  &trans
 &none       &none  &kp LBKT              &kp RBKT               &none          &none     &mmv MOVE_DOWN   &none          &kp KP_N7       &kp KP_N8     &kp KP_N9        &kp KP_PLUS      &kp KP_EQUAL
