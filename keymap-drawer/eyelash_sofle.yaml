@@ -132,11 +132,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   UPPER:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - KP NUMLOCK
@@ -149,7 +149,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '*'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '|'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - KP 7
@@ -171,11 +171,11 @@ layers:
   - KP LEFT PARENTHESIS
   - KP RIGHT PARENTHESIS
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ^
   - (
   - )
   - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - PgDn
   - KP 1
