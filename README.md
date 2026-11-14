@@ -18,5 +18,7 @@
 
 # Sofle键位图
 
-<img src="keymap-drawer/sofle.svg" >
+<img src="keymap-drawer/default.png" >
+<img src="keymap-drawer/upper.png" >
+<img src="keymap-drawer/lower.png" >
 
